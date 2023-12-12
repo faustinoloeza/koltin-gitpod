@@ -17,10 +17,9 @@ RUN install-packages openjdk-17-jdk -y \
         fonts-noto \
         fonts-noto-cjk \
         libstdc++-12-dev \
-        update-java-alternatives --set java-1.17.0-openjdk-amd64 \
         wget \
         unzip \
-        && rm -rf /var/lib/apt/lists/*
+        && update-java-alternatives --set java-1.17.0-openjdk-amd64 
 
 # Update google chrome 
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
