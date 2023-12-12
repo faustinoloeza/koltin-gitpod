@@ -17,3 +17,10 @@ ports:
     onOpen: ignore
   - port: 40000-50000
     onOpen: ignore
+
+android-studio:
+  plugins:
+    - Kotlin:
+        version: latest
+    - Kotlin Multiplatform:
+        version: latest
