@@ -1,14 +1,6 @@
 # Define the Docker image to use
 image:
   file: .gitpod.Dockerfile
-
-
-android-studio:
-  plugins:
-    - name: Kotlin
-      version: latest
-    - name: "Kotlin Multiplatform"
-      version: latest
       
 # Define how to handle different ports
 ports:
