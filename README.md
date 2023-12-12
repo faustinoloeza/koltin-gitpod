@@ -1,4 +1,4 @@
-# koltin-gitpod
+# kotlin-gitpod
 
 Click the button below to start a new development environment:
 
