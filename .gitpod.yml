@@ -2,7 +2,6 @@
 image:
   file: .gitpod.Dockerfile
 
-
 # Define how to handle different ports
 ports:
   - port: 5900
@@ -20,7 +19,7 @@ ports:
 
 android-studio:
   plugins:
-    - Kotlin:
-        version: latest
-    - Kotlin Multiplatform:
-        version: latest
+    - name: Kotlin
+      version: latest
+    - name: "Kotlin Multiplatform"
+      version: latest
