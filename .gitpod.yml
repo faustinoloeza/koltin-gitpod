@@ -17,9 +17,3 @@ ports:
   - port: 40000-50000
     onOpen: ignore
 
-android-studio:
-  plugins:
-    - name: Kotlin
-      version: latest
-    - name: "Kotlin Multiplatform"
-      version: latest
